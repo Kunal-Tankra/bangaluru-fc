@@ -1,0 +1,19 @@
+.newFeatured_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* media query */
+@media  screen and (max-width: 950px) {
+    .newFeatured_container{
+        flex-direction: column;
+    }
+
+    .feature_container{
+        width: 100%;
+    }
+}
+

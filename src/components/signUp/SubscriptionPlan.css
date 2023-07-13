@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.memberShipContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memberShipContainer>img {
+    width: 90%;
+    margin: 2rem 0;
+}
+
+/* membership content */
+.digitalMembership_and_signUp {
+    /* border: solid 1px red; */
+    max-width: 400px;
+}
+
+.memberShip_heading,
+.memberShip_price {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.memberShip_heading {
+    background: rgba(39, 85, 160);
+    font-size: 20px;
+    border: solid 1px rgba(39, 85, 160);
+    color: #fff;
+    padding: 4px;
+    line-height: 40px;
+}
+
+.memberShip_price {
+    background: rgba(39, 85, 160, .8);
+    border: solid 1px rgba(39, 85, 160, .8);
+
+    font-size: 45px;
+    color: #fff;
+    line-height: 65px;
+    padding: 10px 0;
+}
+
+/* memberShip_content */
+.memberShip_content {
+    padding: 10px;
+
+    text-align: left;
+    color: #000;
+    min-height: 150px;
+    /* padding-bottom: 65px; */
+    border: 1px solid #eee;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/* sign up btn */
+.signUp_btn{
+    text-align: center;
+    padding: 15px;
+    background-color: #F2F2F2;
+}
+
+.signUp_btn>button{
+    background-color: #F36510;
+}

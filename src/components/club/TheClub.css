@@ -1,0 +1,13 @@
+.theClubContainer>h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #444;
+    margin: 25px 0;
+}
+
+.theClubContainer>p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif !important;
+    line-height: 1.6rem;
+}

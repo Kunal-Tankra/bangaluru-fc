@@ -1,0 +1,28 @@
+.T_C_Container>h1{
+    margin-bottom: 2rem;
+}
+
+.T_C_Container .bold{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.T_C_Container li{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.T_C_Container a{
+    color: #008cba !important;
+    text-decoration: none;
+}
+
+.T_C_Container a:hover{
+    color: #00526E !important;
+    text-decoration: underline;
+}
+
+.pl-0 li ul li{
+    list-style-type: none;
+}

@@ -1,0 +1,39 @@
+.newsChild_container{
+    border-bottom: 2px solid #eee;
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+
+.newsChild_container p{
+    text-align: start;
+    
+}
+
+/* date box */
+.newsChild_dateBox{
+    background-color: #d10a11;
+    color: #fff;
+    padding: 0 8px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .4s;
+}
+
+.newsChild_container:hover .newsChild_dateBox{
+    background-color: #16134E;
+    height: 75px;
+}
+
+.newsChild_dateBox .date{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.newsChild_container a{
+    text-decoration: none;
+    color: initial;
+}

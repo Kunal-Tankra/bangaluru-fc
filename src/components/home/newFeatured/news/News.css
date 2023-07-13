@@ -1,0 +1,24 @@
+.newsContainer {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.news_next_prev_btnContainer {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 950px) {
+
+    .newsContainer {
+        width: 100%;
+    }
+}
